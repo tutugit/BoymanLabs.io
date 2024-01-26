@@ -1,0 +1,80 @@
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 30px 7%;
+}
+
+
+/**top*/
+.top {
+    margin-bottom: 100px;
+}
+
+.top .logo {
+    width: 100px;
+    display: block;
+}
+
+.top p {
+    font-size: 1rem;
+    line-height: 1.7rem;
+    padding: 0;
+}
+
+/**top end*/
+
+/**links*/
+.links {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links>div {
+    position: relative;
+    cursor: pointer;
+    width: 45%;
+    text-align: center;
+    font-size: 0.875rem;
+}
+
+.links a {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.links .img-div {
+    position: relative;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.links .img-div div {
+    width: 100%;
+    height: 0;
+    padding-top: 70%;
+}
+
+.links .img-div img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.links p {
+    padding: 0 15%;
+}
+
+/**links end*/
